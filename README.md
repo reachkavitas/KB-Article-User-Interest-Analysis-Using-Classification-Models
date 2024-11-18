@@ -10,6 +10,7 @@ This project aims to analyze user behavior data and recommend KB articles to use
 
 ## Dataset
 The dataset contains:
+
 •	User-related information (job function, content type, etc.).
 
 •	KB article metadata (article number, description, etc.).
@@ -17,16 +18,27 @@ The dataset contains:
 •	Interaction details (whether a user viewed a specific KB article).
 
 ## Summary of Findings
-1. Descriptive Analysis
+
+### 1. Descriptive Analysis
+
 •	Most Viewed Content Types: Certain content types (e.g., "CORE", "SUPPORT") dominate user views.
+
 •	Job Functions: Users from the top 10 job functions contribute to the majority of KB views.
+
 •	Unique KB Articles:
-o	The distribution of unique KB articles varies significantly across content types.
-o	A small subset of content types contributes to most KB article views.
+
+#### o	The distribution of unique KB articles varies significantly across content types.
+
+#### o	A small subset of content types contributes to most KB article views.
+
 2. Confusion Matrix Interpretation
+
 •	True Negatives (2484): The model correctly identified non-views.
+
 •	True Positives (0): The model failed to identify any KB views.
+
 •	Class Imbalance:
+
 o	Severe imbalance between classes (0: Not viewed, 1: Viewed) impacted model performance.
 o	Class 1 (viewed) constitutes only a small fraction of the data.
  
