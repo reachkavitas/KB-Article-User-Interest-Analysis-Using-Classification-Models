@@ -1,12 +1,16 @@
 # KB Article User Interest Analysis
 ## Project Overview
 This project aims to analyze user behavior data and recommend KB articles to users:
+
 1.	Which KB articles users are interested in.
+
 2.	How job functions and content types influence KB article views.
+
 3.	The performance of machine learning models in predicting user behavior.
 
 ## Dataset
 The dataset contains:
+
 •	User-related information (job function, content type, etc.).
 •	KB article metadata (article number, description, etc.).
 •	Interaction details (whether a user viewed a specific KB article).
