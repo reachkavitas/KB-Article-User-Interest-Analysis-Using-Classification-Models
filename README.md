@@ -10,9 +10,10 @@ This project aims to analyze user behavior data and recommend KB articles to use
 
 ## Dataset
 The dataset contains:
-
 •	User-related information (job function, content type, etc.).
+
 •	KB article metadata (article number, description, etc.).
+
 •	Interaction details (whether a user viewed a specific KB article).
 
 ## Summary of Findings
