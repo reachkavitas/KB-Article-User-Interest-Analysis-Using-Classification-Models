@@ -33,7 +33,7 @@ The dataset contains:
 
 ### 2. Confusion Matrix Interpretation
 
-![Alt Text]([(https://servicenow-my.sharepoint.com/:f:/r/personal/kavitha_subramanian_servicenow_com/Documents/Documents/AI_ML_Certification_HaaS?csf=1&web=1&e=ME2qQA))]
+![Confusion Matrix]([https://github.com/reachkavitas/KB-Article-User-Interest-Analysis-Using-Classification-Models/blob/main/21.JPG])
 
 •	True Negatives (2484): The model correctly identified non-views.
 
@@ -48,6 +48,8 @@ o	Class 1 (viewed) constitutes only a small fraction of the data.
 ## Model Performance
 
 •	Models Evaluated:Zandom Forest, Logistic Regression, Support Vector Machine (SVM).
+
+![Model Performance]([https://github.com/reachkavitas/KB-Article-User-Interest-Analysis-Using-Classification-Models/blob/main/20.JPG])
 
 •	Random Forest:
 
