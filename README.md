@@ -27,11 +27,13 @@ The dataset contains:
 
 •	Unique KB Articles:
 
-#### o	The distribution of unique KB articles varies significantly across content types.
+ o	The distribution of unique KB articles varies significantly across content types.
 
-#### o	A small subset of content types contributes to most KB article views.
+ o	A small subset of content types contributes to most KB article views.
 
-2. Confusion Matrix Interpretation
+### 2. Confusion Matrix Interpretation
+
+![Alt Text]([(https://servicenow-my.sharepoint.com/:f:/r/personal/kavitha_subramanian_servicenow_com/Documents/Documents/AI_ML_Certification_HaaS?csf=1&web=1&e=ME2qQA))]
 
 •	True Negatives (2484): The model correctly identified non-views.
 
@@ -40,31 +42,40 @@ The dataset contains:
 •	Class Imbalance:
 
 o	Severe imbalance between classes (0: Not viewed, 1: Viewed) impacted model performance.
+
 o	Class 1 (viewed) constitutes only a small fraction of the data.
  
 ## Model Performance
-•	Models Evaluated:
-o	Random Forest, Logistic Regression, Support Vector Machine (SVM).
+
+•	Models Evaluated:Zandom Forest, Logistic Regression, Support Vector Machine (SVM).
+
 •	Random Forest:
+
 o	Best-performing model with mean accuracy of 53% and low standard deviation (0.235).
+
 o	Handles imbalanced data better but still struggles with minority class prediction.
-•	Logistic Regression:
-o	Performed poorly with mean accuracy of 32%, highlighting difficulty with non-linear patterns.
-•	Support Vector Machine:
-o	Moderate performance (39% accuracy) but with high variability (0.331 standard deviation).
+
+•	Logistic Regression:Performed poorly with mean accuracy of 32%, highlighting difficulty with non-linear patterns.
+
+•	Support Vector Machine:Moderate performance (39% accuracy) but with high variability (0.331 standard deviation).
  
 ## Recommendations
-•	Address Class Imbalance:
-o	Apply techniques like SMOTE or class-weight adjustments.
-•	Feature Engineering:
-o	Add user engagement metrics and richer features for better model performance.
-•	Hyperparameter Tuning:
-o	Improve Random Forest and SVM using GridSearchCV.
-•	Alternative Models:
+
+•	Address Class Imbalance:Apply techniques like SMOTE or class-weight adjustments.
+
+•	Feature Engineering:Add user engagement metrics and richer features for better model performance.
+
+•	Hyperparameter Tuning:Improve Random Forest and SVM using GridSearchCV.
+
+## Alternative Models:
+
 o	Explore Gradient Boosting models (e.g., XGBoost, LightGBM) for better handling of imbalanced data.
 
 ## Next Steps
+
 1.	Implement class balancing techniques to improve minority class prediction.
+
 2.	Perform hyperparameter tuning for top-performing models.
+
 3.	Develop visual dashboards for easier data exploration.
 
